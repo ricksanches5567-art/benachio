@@ -93,3 +93,6 @@ body{background:var(--ink)}
 /* fotos quadradas (1:1) também no detalhe do produto */
 .car--p{aspect-ratio:1/1}
 .pm__gallery{padding-bottom:0}
+/* legibilidade do nome sobre fotos claras */
+.hero__title{text-shadow:0 2px 22px rgba(20,10,5,.7),0 0 3px rgba(20,10,5,.45)}
+.hero__title em{color:#f0cf9a}
