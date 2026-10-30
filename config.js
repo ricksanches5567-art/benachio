@@ -1,7 +1,7 @@
 /* CONFIGURAÇÕES DA LOJA — Benachio (arquivo PÚBLICO: nunca coloque senha, token ou dados de clientes aqui) */
 window.LOJA_CONFIG = {
   nomeLoja: "Benachio",
-  whatsappNumber: "5541991064167",
+  whatsappNumber: "",
   // Servidor de pagamento (Cloudflare Worker próprio desta loja: os pedidos não se misturam com as outras lojas)
   apiPagamento: "https://benachio-pagamento.cwbmodafitness.workers.dev",
   vendasAtivas: true,
@@ -18,5 +18,5 @@ window.LOJA_CONFIG = {
     norte:      { nome: "Norte", pac: { preco: 48.90, prazo: [10, 16], kgAdicional: 10 }, sedex: { preco: 99.90, prazo: [4, 9], kgAdicional: 20 } }
   },
   cidade: "Curitiba – PR",
-  textoEnvio: "Enviamos para todo o Brasil (Correios, Jadlog, JeT, Loggi); dúvidas e trocas pelo WhatsApp."
+  textoEnvio: "Enviamos para todo o Brasil (Correios, Jadlog, JeT, Loggi); dúvidas e trocas pelo site."
 };
